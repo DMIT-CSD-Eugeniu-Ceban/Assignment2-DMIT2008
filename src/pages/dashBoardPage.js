@@ -1,17 +1,19 @@
 import React from 'react';
 import { AppBar } from './../components/appbar'
 import { Panels } from './../components/panels'
-import {SideBar} from './../components/sidebar'
+import { SideBar } from './../components/sidebar'
 
 
 function DashBoardPage(props) {
-    return ( 
+    return (
         <>
             <AppBar />
-            <SideBar/>
-            <Panels />
-        </>	
-     );
+            <div style={{ display: "flex" }}>
+                <SideBar />
+                <Panels />
+            </div>
+        </>
+    );
 }
 
 export default DashBoardPage;

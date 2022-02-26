@@ -3,7 +3,7 @@ import React from 'react';
 import { IoGridOutline, IoChevronForward, IoPeopleSharp, IoPeopleCircleOutline, IoFileTrayStackedOutline, IoLibrarySharp, IoCart, IoStarHalf, IoPricetags, IoLogInOutline, IoCubeSharp, IoCopyOutline } from 'react-icons/io5'
 
 import { SideBarSection } from './../../ui/sideBarButton'
-import { SidebarContainer} from './../../ui/sideContainer'
+import { SidebarContainer } from './../../ui/sideContainer'
 import { Sections, H3 } from './styles'
 
 
@@ -14,7 +14,7 @@ function SideBar(props) {
             <SidebarContainer>
                 <SideBarSection>
                     <div style={{ display: 'flex' }}>
-                        <IoGridOutline size= "1.4rem"/>
+                        <IoGridOutline size="1.4rem" />
                         <H3>DASHBOARD</H3>
                     </div>
                     {/* <div>
@@ -24,9 +24,9 @@ function SideBar(props) {
             </SidebarContainer>
 
             <SidebarContainer>
-                <SideBarSection style={{ marginBottom: '1rem'}}>
+                <SideBarSection style={{ marginBottom: '1rem' }}>
                     <div style={{ display: 'flex' }}>
-                        <IoPeopleSharp size="1.4rem"/>
+                        <IoPeopleSharp size="1.4rem" />
                         <H3>VENDORS</H3>
                     </div>
                     <div>
@@ -85,7 +85,7 @@ function SideBar(props) {
                         <IoChevronForward />
                     </div>
                 </SideBarSection>
-                
+
                 <SideBarSection style={{ marginBottom: '1rem' }}>
                     <div style={{ display: 'flex' }}>
                         <IoPricetags size="1.4rem" />
@@ -94,7 +94,7 @@ function SideBar(props) {
                     <div>
                         <IoChevronForward />
                     </div>
-                </SideBarSection>    
+                </SideBarSection>
             </SidebarContainer>
 
             <SidebarContainer>
@@ -116,7 +116,7 @@ function SideBar(props) {
                     <div>
                         <IoChevronForward />
                     </div>
-                </SideBarSection>    
+                </SideBarSection>
 
                 <SideBarSection style={{ marginBottom: '1rem' }}>
                     <div style={{ display: 'flex' }}>
@@ -126,10 +126,23 @@ function SideBar(props) {
                     <div>
                         <IoChevronForward />
                     </div>
-                </SideBarSection>     
-                
-                
+                </SideBarSection>
+
+
             </SidebarContainer>
+
+            <SidebarContainer style={{borderBottomWidth: '0' }}>
+                <SideBarSection style={{ marginBottom: '1rem', marginTop: '0.8rem'}}>
+                    <div style={{ display: 'flex' }}>
+                        <IoCopyOutline size="1.4rem" />
+                        <H3>CONTACT US</H3>
+                    </div>
+                    <div>
+                        <IoChevronForward />
+                    </div>
+                </SideBarSection>
+            </SidebarContainer>
+
         </Sections>
     )
 }
