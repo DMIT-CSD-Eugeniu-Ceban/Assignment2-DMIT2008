@@ -28,11 +28,13 @@ const AppBarButton = styled.span`
 const AppBarIcons = styled.div`
     display: flex;
     `
+
+    
 const AppBarIcon = styled.ul`
     display: flex;
     justify-content: space-between;
     align-items:center;
-    width: 13rem;
+    width: 14rem;
 
 `
 

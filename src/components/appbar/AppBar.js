@@ -1,5 +1,6 @@
 import React from 'react';
 import logo from './../../static/logo.png'
+import { Button } from './../../ui/buttons';
 
 import { IoEllipsisVertical, IoMailOutline, IoNotificationsOutline } from 'react-icons/io5'
 
@@ -15,10 +16,10 @@ function AppBar(props) {
             <AppBarIcons>
                 <AppBarIcon>
                     <span><AppBarButton>sign out</AppBarButton></span>
-                    <span><IoMailOutline size='1.5rem' /></span>
-                    <span><IoNotificationsOutline size='1.5rem' /></span>
+                    <Button><IoMailOutline size='1.5rem' /></Button>
+                    <Button><IoNotificationsOutline size='1.5rem' /></Button>
                     <span><img src='https://avatars.dicebear.com/api/initials/eugeniu%20ceban.svg?b=%23ef7534&r=50&scale=104' width='35' alt='Avatar' /></span>
-                    <span><IoEllipsisVertical size='1.2rem' /></span>
+                    <Button><IoEllipsisVertical size='1.2rem' /></Button>
                 </AppBarIcon>
             </AppBarIcons>
         </AppBarLogoStyle>
