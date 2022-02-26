@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { IoGridOutline, IoChevronForward, IoPeopleSharp, IoPeopleCircleOutline } from 'react-icons/io5'
+import { IoGridOutline, IoChevronForward, IoPeopleSharp, IoPeopleCircleOutline, IoFileTrayStackedOutline, IoLibrarySharp, IoCart, IoStarHalf, IoPricetags, IoLogInOutline, IoCubeSharp, IoCopyOutline } from 'react-icons/io5'
 
 import { SideBarSection } from './../../ui/sideBarButton'
 import { SidebarContainer} from './../../ui/sideContainer'
@@ -24,7 +24,7 @@ function SideBar(props) {
             </SidebarContainer>
 
             <SidebarContainer>
-                <SideBarSection style={{ marginBottom: '0.5rem'}}>
+                <SideBarSection style={{ marginBottom: '1rem'}}>
                     <div style={{ display: 'flex' }}>
                         <IoPeopleSharp size="1.4rem"/>
                         <H3>VENDORS</H3>
@@ -45,19 +45,91 @@ function SideBar(props) {
                 </SideBarSection>
             </SidebarContainer>
 
-            <div>
-                <span>Categories</span>
-                <span>Products</span>
-                <span>Orders</span>
-                <span>Reviews</span>
-                <span>Brands</span>
-            </div>
+            <SidebarContainer>
+                <SideBarSection style={{ marginBottom: '1.5rem' }}>
+                    <div style={{ display: 'flex' }}>
+                        <IoFileTrayStackedOutline size="1.4rem" />
+                        <H3>CATEGORIES</H3>
+                    </div>
+                    <div>
+                        <IoChevronForward />
+                    </div>
+                </SideBarSection>
 
-            <div>
-                <span>Authentication</span>
-                <span>Icons</span>
-                <span>Other Pages</span>
-            </div>
+                <SideBarSection style={{ marginBottom: '1.5rem' }}>
+                    <div style={{ display: 'flex' }}>
+                        <IoLibrarySharp size="1.4rem" />
+                        <H3>PRODUCTS</H3>
+                    </div>
+                    <div>
+                        <IoChevronForward />
+                    </div>
+                </SideBarSection>
+
+                <SideBarSection style={{ marginBottom: '1.5rem' }}>
+                    <div style={{ display: 'flex' }}>
+                        <IoCart size="1.4rem" />
+                        <H3>ORDERS</H3>
+                    </div>
+                    <div>
+                        <IoChevronForward />
+                    </div>
+                </SideBarSection>
+
+                <SideBarSection style={{ marginBottom: '1.5rem' }}>
+                    <div style={{ display: 'flex' }}>
+                        <IoStarHalf size="1.4rem" />
+                        <H3>REVIEWS</H3>
+                    </div>
+                    <div>
+                        <IoChevronForward />
+                    </div>
+                </SideBarSection>
+                
+                <SideBarSection style={{ marginBottom: '1rem' }}>
+                    <div style={{ display: 'flex' }}>
+                        <IoPricetags size="1.4rem" />
+                        <H3>BRANDS</H3>
+                    </div>
+                    <div>
+                        <IoChevronForward />
+                    </div>
+                </SideBarSection>    
+            </SidebarContainer>
+
+            <SidebarContainer>
+                <SideBarSection style={{ marginBottom: '1.5rem' }}>
+                    <div style={{ display: 'flex' }}>
+                        <IoLogInOutline size="1.4rem" />
+                        <H3>AUTHENTICATE</H3>
+                    </div>
+                    <div>
+                        <IoChevronForward />
+                    </div>
+                </SideBarSection>
+
+                <SideBarSection style={{ marginBottom: '1.5rem' }}>
+                    <div style={{ display: 'flex' }}>
+                        <IoCubeSharp size="1.4rem" />
+                        <H3>ICONS</H3>
+                    </div>
+                    <div>
+                        <IoChevronForward />
+                    </div>
+                </SideBarSection>    
+
+                <SideBarSection style={{ marginBottom: '1rem' }}>
+                    <div style={{ display: 'flex' }}>
+                        <IoCopyOutline size="1.4rem" />
+                        <H3>OTHER PAGES</H3>
+                    </div>
+                    <div>
+                        <IoChevronForward />
+                    </div>
+                </SideBarSection>     
+                
+                
+            </SidebarContainer>
         </Sections>
     )
 }
