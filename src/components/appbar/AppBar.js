@@ -8,7 +8,7 @@ import { AppBarLogoStyle, AppBarLogo, AppBarButton, AppBarIcons, AppBarIcon } fr
 
 function AppBar(props) {
     return (
-        <AppBarLogoStyle bgcolor="#ECEFF1" color="#424242">
+        <AppBarLogoStyle bgcolor="#ECEFF1" color="#424242" >
             <AppBarLogo>
                 <span><img src={logo} width='60' style={{ margin: '1rem 0 1rem 1rem'}} alt="company logo" /></span>
                 <h1 style={{ fontSize: "2rem", fontWeight: 'bold', padding:'0 4rem 0 1rem'} }>EC</h1>

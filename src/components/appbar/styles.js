@@ -7,6 +7,7 @@ const AppBarLogoStyle = styled.nav`
     color: ${props => props.color || "pink"};
     display: flex;
     justify-content: space-between;
+    z-index: 1;
 `
 
 
@@ -14,7 +15,7 @@ const AppBarLogo = styled.div`
     display: flex;
     align-items: center;
     border-right: 1px solid #78909C;
-`
+`;
 
 
 const AppBarButton = styled.span`
@@ -22,12 +23,12 @@ const AppBarButton = styled.span`
     font-weight: 650;
     color: #616161;
     border: unset;
-`
+`;
 
 
 const AppBarIcons = styled.div`
     display: flex;
-    `
+`;
 
     
 const AppBarIcon = styled.ul`
@@ -35,8 +36,7 @@ const AppBarIcon = styled.ul`
     justify-content: space-between;
     align-items:center;
     width: 14rem;
-
-`
+`;
 
 
 

@@ -6,15 +6,11 @@ const Sections = styled.div`
   border-top: 1px solid #78909C;
   border-right: 1px solid #78909C;
   height: 92.5vh;
-  //text-transform: uppercase;
-  //padding: 1rem 1rem 0 1rem;
 `
 
 const H3 = styled.h3`
-    margin-left: 0.5rem;
+  margin-left: 0.5rem;
 `
-
-
 
 
 export { Sections, H3 }

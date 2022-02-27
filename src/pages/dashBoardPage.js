@@ -8,7 +8,7 @@ function DashBoardPage(props) {
     return (
         <>
             <AppBar />
-            <div style={{ display: "flex" }}>
+            <div style={{ display: "flex"}}>
                 <SideBar />
                 <Panels />
             </div>

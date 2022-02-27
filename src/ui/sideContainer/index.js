@@ -5,6 +5,4 @@ const SidebarContainer = styled.div`
     border-bottom: 1px solid #78909C;
 `
 
-
-
 export { SidebarContainer}
