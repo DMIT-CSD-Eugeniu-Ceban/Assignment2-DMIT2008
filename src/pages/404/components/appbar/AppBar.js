@@ -1,6 +1,6 @@
 import React from 'react';
-import logo from './../../static/logo.png'
-import { Button } from './../../ui/buttons';
+import logo from './../../../../static/logo.png'
+import { Button } from './../../../../ui/buttons';
 
 import { IoEllipsisVertical, IoMailOutline, IoNotificationsOutline } from 'react-icons/io5'
 

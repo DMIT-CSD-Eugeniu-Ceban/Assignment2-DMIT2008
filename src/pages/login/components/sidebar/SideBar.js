@@ -2,8 +2,8 @@ import React from 'react';
 
 import { IoGridOutline, IoChevronForward, IoPeopleSharp, IoPeopleCircleOutline, IoFileTrayStackedOutline, IoLibrarySharp, IoCart, IoStarHalf, IoPricetags, IoLogInOutline, IoCubeSharp, IoCopyOutline } from 'react-icons/io5'
 
-import { SideBarSection } from './../../ui/sideBarButton'
-import { SidebarContainer } from './../../ui/sideContainer'
+import { SideBarSection } from './../../../../ui/sideBarButton'
+import { SidebarContainer } from './../../../../ui/sideContainer'
 import { Sections, H3 } from './styles'
 
 import { Link } from "react-router-dom"
@@ -14,9 +14,9 @@ function SideBar(props) {
             <SidebarContainer>
                 <SideBarSection>
                     <div style={{ display: 'flex' }}>
-                        <IoGridOutline size="1.4rem" style={{ color:"#9C27B0"}}/>
+                        <IoGridOutline size="1.4rem"/>
                         {/* <H3>DASHBOARD</H3> */}
-                        <Link to="/dashboard" style={{ textTransform: "uppercase", color: 'black', textDecoration: 'none', paddingLeft: '0.5rem', textDecoration: 'underline', fontWeight: '500'}}>Dashboard</Link>
+                        <Link to="/dashboard" style={{textTransform: "uppercase", color: 'black', textDecoration:'none', paddingLeft: '0.5rem'}}>Dashboard</Link>
                     </div>
                     {/* <div>
                         <IoChevronForward />
@@ -101,8 +101,8 @@ function SideBar(props) {
             <SidebarContainer>
                 <SideBarSection style={{ marginBottom: '1.5rem' }}>
                     <div style={{ display: 'flex' }}>
-                        <IoLogInOutline size="1.4rem" />
-                        <Link to="/" style={{ color: 'black', textDecoration: 'none'}}>AUTHENTICATE</Link>
+                        <IoLogInOutline size="1.4rem" style={{ color: "#9C27B0" }}/>
+                        <Link to="/" style={{ color: 'black', textDecoration: 'underline', fontWeight: '500', paddingLeft: '0.4rem' }}>AUTHENTICATE</Link>
                     </div>
                     <div>
                         <IoChevronForward />

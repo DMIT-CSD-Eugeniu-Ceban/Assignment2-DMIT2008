@@ -17,7 +17,7 @@ function Panels(props) {
 
                 <PanelNavbar>
                     <PanelRootFolder>
-                        <a href="https://loopinfosol.in/themeforest/ekka-html-v3/ekka-admin/index.html">
+                        <a href="#">
                             Home
                         </a>
                         <IoChevronForward style={{fontSize: "1em", marginLeft: 10, marginRight: 7}} />
