@@ -50,7 +50,7 @@ function LoginPage(props) {
                 <button>sign in</button>
             </form>
         </div> */}
-        {/* ----------------------------------------------------------------------------- */}
+        
 
 
             <div style={{ background: `url(${backgroundImage})`, backgroundPosition: 'center', backgroundSize: 'cover', backgroundRepeat: 'no-repeat', height: '100vh', display: 'flex', alignItems: 'center', minHeight:'600px', minWidth: '600px' }} >
@@ -68,7 +68,7 @@ function LoginPage(props) {
                             <span><img src={avatar} width='70' style={{position: 'static'}} alt="company logo"/></span>
                         </div>
 
-                        <form action="post">
+                        <form onSubmit={onSignInHandler} action="post">
                             <div className='inputSection'>
                                 <label for="email">Email</label>
                                 <input type="email" id="email" placeholder="User email" /* required  *//>
