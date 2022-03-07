@@ -1,31 +1,31 @@
 import React from 'react';
 
-import { Link } from 'react-router-dom'
-
-import { AppBar } from './components/appbar'
-import { Panels } from './components/panels'
-import { SideBar } from './components/sidebar'
+import backgroundImg from './../../static/404error.gif';
+import { useNavigate } from "react-router-dom";
+import { Frame } from './styles';
 
 function PageNotFound(props) {
+
+    let navigate = useNavigate()
+
+    function onSignInHandler(e) {
+        e.preventDefault();
+        navigate('/dashboard')
+    }
+
     return (
         <>
-        {/*     <h1 style={{ color: 'red' }}>ERROR 404</h1>    
-        
-        <ul>
-            <li>
-                <Link to="/">back to saftey</Link>
-            </li>
-            </ul>
-            
-        <header>
-            <h1>404</h1>
-        </header> */}
-            
-        <AppBar />
-        <div style={{ display: "flex" }}>
-            <SideBar />
-            <Panels />
-        </div>
+            <div style={{ background: `url(${backgroundImg})`, backgroundPosition: 'center', backgroundSize: 'cover', backgroundRepeat: 'no-repeat', height: '100vh', display: 'flex', alignItems: 'center' }} >
+
+                <Frame style={{ margin: '0 auto', position: 'relative', top: '-40%', right: '-9%' }}>
+                    <form onSubmit={onSignInHandler} >
+                        <div className='loginButton'>
+                            <button style={{ position: 'absolute', top: '1rem', right: '2rem' }} type="submit">Back Home !</button>
+                        </div>
+                    </form>
+                </Frame>
+
+            </div>
 
 
         </>
