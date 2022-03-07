@@ -37,7 +37,7 @@ const Container = styled.div`
         color: #B9548D;
         font-weight:600;
         text-align:center;
-        padding: 2rem 0;
+        padding: 2rem 0 1rem 0;
     }
     
     form{
@@ -163,7 +163,16 @@ const Container = styled.div`
 }
 
 /* END of button design */
+.socialMedia{
+    margin-top: 1.5rem;
+    display: flex;
+    justify-content: space-around;
+}
 
+
+.socialMedia img{
+    width: 50px;
+}
 
 
 

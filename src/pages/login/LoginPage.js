@@ -6,6 +6,9 @@ import logo from './../../static/logo.png'
 import backgroundImage from './../../static/picture1.jpg';
 import loginImage from './../../static/login.png'
 import avatar from './../../static/avatar.png'
+import facebook from './../../static/facebook.png'
+import google from './../../static/google.png'
+import linkedin from './../../static/linkedin.png'
 
 import { Container } from './styles'
 
@@ -61,19 +64,19 @@ function LoginPage(props) {
                     
                     <div className='loginSection'>
                         <p className='header'>Login</p>
-                        <div style={{ display: 'flex', justifyContent: 'center', paddingBottom: '2rem'}}>
-                            <span><img src={avatar} width='80' style={{position: 'static'}} alt="company logo"/></span>
+                        <div style={{ display: 'flex', justifyContent: 'center', paddingBottom: '0.4rem'}}>
+                            <span><img src={avatar} width='70' style={{position: 'static'}} alt="company logo"/></span>
                         </div>
 
                         <form action="post">
                             <div className='inputSection'>
                                 <label for="email">Email</label>
-                                <input type="email" id="email" placeholder="User email" required />
+                                <input type="email" id="email" placeholder="User email" /* required  *//>
 
                             </div>
                             <div className='inputSection'>
                                 <label for="password">Password</label>
-                                <input type="password" id="password" placeholder="Password" required />
+                                <input type="password" id="password" placeholder="Password" /* required */ />
                             </div>
 
                             <div className='rememberForgot'>
@@ -93,16 +96,16 @@ function LoginPage(props) {
                                 <button type="submit">Sign In</button>
                                 <button type="submit">Sign Up</button>
                             </div>
-                            <div>
-                                <spnan>
-                                    <img src="" alt="facebook" />
-                                </spnan>
-                                <spnan>
-                                    <img src="" alt="Gmail" />
-                                </spnan>
-                                <spnan>
-                                    <img src="" alt="LinkIn" />
-                                </spnan>
+                            <div className='socialMedia'>
+                                <span>
+                                    <a href="#"><img src={facebook} alt="facebook" /></a>
+                                </span>
+                                <span>
+                                    <a href="#"><img src={google} alt="Gmail" /></a>
+                                </span>
+                                <span>
+                                    <a href="#"><img src={linkedin} alt="LinkIn" /></a>
+                                </span>
                             </div>
                         </form>
                     </div>
