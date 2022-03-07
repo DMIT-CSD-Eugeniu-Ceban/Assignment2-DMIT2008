@@ -54,7 +54,7 @@ function LoginPage(props) {
 
                 <Container>
                     <div>
-                        <span><img src={logo} width='60' style={{ margin: '1rem 0 1rem 1rem', position:'absolute', left:'0.5rem', top: '0.5rem'}} alt="company logo" /></span>
+                        <span><img src={logo} width='65' style={{ margin: '1rem 0 1rem 1rem', position:'absolute', left:'0.5rem', top: '0.5rem'}} alt="company logo" /></span>
                         <img className='picture' src={loginImage} width='700px' style={{padding:'1rem '}} alt="Sing in logo" />
                     </div>
 
@@ -66,29 +66,30 @@ function LoginPage(props) {
                         </div>
 
                         <form action="post">
-                            <div>
+                            <div className='inputSection'>
                                 <label for="email">Email</label>
                                 <input type="email" id="email" placeholder="User email" required />
 
                             </div>
-                            <div>
+                            <div className='inputSection'>
                                 <label for="password">Password</label>
                                 <input type="password" id="password" placeholder="Password" required />
                             </div>
 
-                            <div>
+                            <div className='rememberForgot'>
                                 <div>
-                                    <label class="checkbox-wrap checkbox-primary">Remember Me
-                                        <input type="checkbox" />
+                                    <label>Remember Me
+                                        <input type="checkbox" style={{ marginLeft: '0.2rem', width: '1rem', height: '1rem', cursor: 'pointer' }}/>
                                         <span class="checkmark"></span>
                                     </label>
                                 </div>
 
-                                <div>
-                                    <spnan><a href="#">Forgot Password</a></spnan>
+                                <div className='forgotPass'>
+                                    <span><a href="#">Forgot Password</a></span>
                                 </div>
                             </div>
-                            <div>
+
+                            <div className='loginButton'>
                                 <button type="submit">Sign In</button>
                                 <button type="submit">Sign Up</button>
                             </div>
