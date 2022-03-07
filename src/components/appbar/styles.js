@@ -15,6 +15,7 @@ const AppBarLogo = styled.div`
     display: flex;
     align-items: center;
     border-right: 1px solid #78909C;
+    /* &::hover{background-color:} */
 `;
 
 

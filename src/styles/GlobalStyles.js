@@ -1,5 +1,6 @@
 import { createGlobalStyle } from 'styled-components'; /* imsc , imscg*/
 
+
 const GlobalStyles = createGlobalStyle`
  *,
  *::before,
