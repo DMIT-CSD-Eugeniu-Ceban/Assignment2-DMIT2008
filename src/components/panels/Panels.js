@@ -2,7 +2,6 @@ import React from 'react';
 
 import { IoChevronForward, IoAddOutline } from 'react-icons/io5'
 
-
 import { PanelColor, PanelNavbar, PanelRootFolder} from './styles'
 import { PanelButton } from './../../ui/mainPanelButton'
 import { PanelFrame, TopFramePanel, CenterFramePanel, BottomFramePanel} from './../../ui/mainPanel'
@@ -17,7 +16,7 @@ function Panels(props) {
 
                 <PanelNavbar>
                     <PanelRootFolder>
-                        <a href="#">
+                        <a href="">
                             Home
                         </a>
                         <IoChevronForward style={{fontSize: "1em", marginLeft: 10, marginRight: 7}} />
