@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { Link, useNavigate } from "react-router-dom"
+import { /* Link,  */useNavigate } from "react-router-dom"
 
 import logo from './../../static/logo.png'
 import backgroundImage from './../../static/picture1.jpg';

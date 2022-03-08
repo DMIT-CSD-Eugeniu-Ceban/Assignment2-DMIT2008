@@ -16,7 +16,7 @@ function SideBar(props) {
                     <div style={{ display: 'flex' }}>
                         <IoGridOutline size="1.4rem" style={{ color:"#9C27B0"}}/>
                         {/* <H3>DASHBOARD</H3> */}
-                        <Link to="/dashboard" style={{ textTransform: "uppercase", color: 'black', textDecoration: 'none', paddingLeft: '0.5rem', textDecoration: 'underline', fontWeight: '500'}}>Dashboard</Link>
+                        <Link to="/dashboard" style={{ textTransform: "uppercase", color: 'black',  paddingLeft: '0.5rem', textDecoration: 'underline', fontWeight: '500'}}>Dashboard</Link>
                     </div>
                     {/* <div>
                         <IoChevronForward />
@@ -143,7 +143,6 @@ function SideBar(props) {
                     </div>
                 </SideBarSection>
             </SidebarContainer>
-
         </Sections>
     )
 }

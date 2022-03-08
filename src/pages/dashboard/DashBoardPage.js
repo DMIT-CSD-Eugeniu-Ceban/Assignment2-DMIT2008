@@ -4,7 +4,7 @@ import { AppBar } from '../../components/appbar'
 import { Panels } from '../../components/panels'
 import { SideBar } from '../../components/sidebar'
 
-import { Link } from "react-router-dom"
+/* import { Link } from "react-router-dom" */
 
 
 function DashBoardPage(props) {
