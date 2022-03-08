@@ -16,7 +16,7 @@ function Panels(props) {
 
                 <PanelNavbar>
                     <PanelRootFolder>
-                        <a href="">
+                        <a href="#top">
                             Home
                         </a>
                         <IoChevronForward style={{fontSize: "1em", marginLeft: 10, marginRight: 7}} />
