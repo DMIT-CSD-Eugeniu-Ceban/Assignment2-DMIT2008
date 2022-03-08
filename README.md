@@ -11,9 +11,9 @@
 
 ##  :books: <span style="color:FFF3E0; font-weight:500" id="general-info">General Info</span>
 
-This project aims to create in &nbsp; <span style="color: lightseagreen; font-weight:600; font-size: 1.2rem"> <img src="https://media4.giphy.com/media/eNAsjO55tPbgaor7ma/giphy.gif?cid=ecf05e47g3cyt5km83vjjzpek9yemwmsw1uw6d14u4pdtj73&rid=giphy.gif&ct=s" width="19" title="react logo"> React &nbsp;</span> an online footwear dashboard store for men, women, and children. The name of this store is <span style="color:#EF5350; font-weight:600"><img src="./static/../src/static/logo.png" width="20" title="EC logo"> *"Shoes EC"*</span>. The structure of the web page consists of three essential elements, the navigation bar, the side bar, and the content of the page. These elements help to make it easier to control the processes performed by the user. The `"Home"`, `"Read"`, `"Write"`, `"Update"`, and `"Delete"` buttons can also be found in the sidebar.<br/>
-In the navigation bar the user can select the donation service, send a private message, or contact the administrator of this website.All data created by the user is stored in the Firebase Real Time Database service.<br/>
-This project is launched on *Netlify* and the repository can be found on the Github link. <br/>
+This project aims to create in &nbsp; <span style="color: lightseagreen; font-weight:600; font-size: 1.2rem"> <img src="https://media4.giphy.com/media/eNAsjO55tPbgaor7ma/giphy.gif?cid=ecf05e47g3cyt5km83vjjzpek9yemwmsw1uw6d14u4pdtj73&rid=giphy.gif&ct=s" width="19" title="react logo"> React &nbsp;</span> an online footwear dashboard store for men, women, and children. The name of this store is <span style="color:#EF5350; font-weight:600"><img src="./static/../src/static/logo.png" width="20" title="EC logo"> *"Shoes EC"*</span>. The structure of the web page consists of three essential elements, the navigation bar, the side bar, and the content of the page. These elements help to make it easier to control the processes performed by the user. Active links in this project that can be accessed are `"Dashboard"`, `"sign out"` and `"Authenticated"` which returns the user to the login page.<br/>
+The third element of this project is `"Page 404"`, which shows the user that the request was not accessible.<br/>
+This project is launched on *Netlify* and the repository can be found on the Github link.<br/>
 Good Luck !!!
 
 ##  :computer: <span style="color:78909C; font-weight:500" id="installation">Installation</span>
@@ -28,22 +28,21 @@ Good Luck !!!
   ```
     npm start
   ```
-3. Access the Server
-   - Click on the link from the terminal (hold "Ctrl + click on the link")
+3. Server will auto-run
+   - wait a few seconds, the first time the server needs more time than usual.
 ```
-  Server running at http://localhost:1234
+  On Your Network:  http://192.168.0.16:3000   
 ```
 
 ## :gear: <span style="color:81C784; font-weight:500" id="setup">Setup</span>
 
 The use of this web page aims to meet all the expectations of our customers. It is extremely easy to control and use.
-In the first compartment in the sidebar is reading data from Firebase. Here our customers can find all the cards or products created by them so far. In this compartment, they have the possibility to edit the product if they want. All fields must be completed. <br/>
-In the next section, our customer can create a product as he wants. All his data will be stored in the Firebase database. Here he will select the desired image, the type of shoes he or she **will** create, the model of the shoe, its price, and finally the description of the product in detail. When they have finished creating this card, the customer must click on the `"add product"` button. From this moment the automatic product is saved in the database, plus it can be read in the `"Read"` compartment.. <br/>
-The next option and function of this project is to allow each client to update the product created. They can access this service either from the reading page or from the sidebar. All changes will take place from the moment you click the `"update product"` button. <br/>
-The fourth opportunity offered to our customers is to delete the product created. All deleted cards cannot be recovered, so please use this service with a final decision. Moreover, this page can be accessed as a refresh page, either from the reading page or from the side menu.
+At the launch of this project, the login page with the client's email and password will be displayed, at this moment it is not necessary to complete these two elements. The user just must press the enter button and then he will be redirected to the main page of the web page.<br/>
+In the next section, the complete web page with the three essential elements is presented. At the top is the navigation bar with the company logo and four other buttons. On the left side can be identified the menu with all the functions that can be accessed in the future. And finally, the product line will be presented at the center of the page.<br/>
+Of course, this project also provides the user with a `404 page` in case of errors or indefinite access. On this page, the user will be able to see the notification that he has accessed the wrong link. Also, on this page, the user will be able to access the "Back Home" button to get back to the main page of this product.<br/>
 
 ## :pencil: <span style="color:CE93D8; font-weight:500" id="conclusion">Conclusion</span>
-Finally, we can mention that this project is a successful one. He offers more opportunities to our clients. This product is easy to use, navigate and has a high-quality standard.
+Finally, we can mention that this project is a successful one. Website offers more opportunities to our clients. This product is easy to use, navigate and has a high-quality standard.
 Everything presented here aims to accomplish the mission offered to the <span style="color:#3F51B5; font-weight:700">NAIT</span> higher education institution. All copyrights are legally reserved, and the purpose of this product is to show how we can use the Firebase database.
 
 &nbsp; 
