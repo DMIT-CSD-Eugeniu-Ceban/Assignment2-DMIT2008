@@ -2,10 +2,8 @@ import styled from 'styled-components';
 
 const Container = styled.div`
     display: flex;
-    min-width: 910px;
+    min-width: 850px;         /* test */
     width: calc(100% / 1.7);
-    //min-height: '650px';
-    //height: 80%;
     min-height: 39rem;
     height: calc(80% - 8rem);  /* Need to check if I should to modify something*/
     margin: 0 auto;
@@ -17,8 +15,10 @@ const Container = styled.div`
     justify-content:space-around;
     position: relative;
     padding: 1rem;
+    transition: all 0.5s ease-in-out;
 
-    
+ 
+
     .loginSection{
         box-shadow: 4px 4px 4px 2px rgba(124,124,124,0.38);
         border: 1px solid silver;
@@ -38,6 +38,7 @@ const Container = styled.div`
         font-weight:600;
         text-align:center;
         padding: 2rem 0 1rem 0;
+        text-shadow: 2px 2px 3px rgba(88,55,88,0.81);
     }
     
     form{
@@ -55,6 +56,7 @@ const Container = styled.div`
         font-family: 'Acme', sans-serif;
         color: #B9548D;
         font-weight: 600;
+        text-shadow: 1px 1px 3px rgba(88,55,88,0.83);
     }
 
     .inputSection input{
@@ -113,9 +115,10 @@ const Container = styled.div`
     z-index: 0;
     border-radius: 27px; /* radius */
     font-weight: 550;
-}
+    }
 
-.loginButton button:before {
+
+    .loginButton button:before {
     content: '';
     background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
     position: absolute;
@@ -130,21 +133,21 @@ const Container = styled.div`
     opacity: 0;
     transition: opacity .3s ease-in-out;
     border-radius: 27px;
-}
+    }
 
-.loginButton button:active {
-    color: #000
-}
+    .loginButton button:active {
+        color: #000
+    }
 
-.loginButton button:active:after {
-    background: transparent;
-}
+    .loginButton button:active:after {
+        background: transparent;
+    }
 
-.loginButton button:hover:before {
-    opacity: 1;
-}
+    .loginButton button:hover:before {
+        opacity: 1;
+    }
 
-.loginButton button:after {
+    .loginButton button:after {
     z-index: -1;
     content: '';
     position: absolute;
@@ -154,42 +157,41 @@ const Container = styled.div`
     left: 0;
     top: 0;
     border-radius: 27px;
-}
+    }
 
-@keyframes glowing {
-    0% { background-position: 0 0; }
-    50% { background-position: 400% 0; }
-    100% { background-position: 0 0; }
-}
+    @keyframes glowing {
+        0% { background-position: 0 0; }
+        50% { background-position: 400% 0; }
+        100% { background-position: 0 0; }
+    }
 
-/* END of button design */
-.socialMedia{
-    margin-top: 1.5rem;
-    display: flex;
-    justify-content: space-around;
-}
+    /* END of button design */
 
+    .socialMedia{
+        margin-top: 1.5rem;
+        display: flex;
+        justify-content: space-around;
+    }
 
-.socialMedia img{
-    width: 50px;
-}
+    .socialMedia img{
+        width: 50px;
+    }
 
-
-
-
-
-    @media screen and (max-width: 750px) {
+    @media (max-width: 700px) {
+        min-width: unset; 
         flex-direction: column;
         align-items: center;
-        height: calc(100% / 1.12);
-     }
+        min-width: 410px;
+        height: 1000px;
+        transition: all 0.4s ease-in-out;
+
+        div > img{
+            width:25rem;
+        }
+
+    }
 
     
 `
-
-
-
-
-
 
 export { Container }

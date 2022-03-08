@@ -1,5 +1,5 @@
 # :writing_hand: <span style="color: lightcoral;"> **Assignment 1**</span>  <span style="color: turquoise;">*(React Firebase Dashboard)*</span>
- :calendar: 11th, MArch 2022 <br/>
+ :calendar: 11th, March 2022 <br/>
  :clock11: 11:59pm <br/>
  :package: <span style="color: red; font-weight:700">20%</span>
 
@@ -11,7 +11,7 @@
 
 ##  :books: <span style="color:FFF3E0; font-weight:500" id="general-info">General Info</span>
 
-This project aims to create in &nbsp; <span style="color: lightseagreen; font-weight:600; font-size: 1.2rem"> <img src="https://media4.giphy.com/media/eNAsjO55tPbgaor7ma/giphy.gif?cid=ecf05e47g3cyt5km83vjjzpek9yemwmsw1uw6d14u4pdtj73&rid=giphy.gif&ct=s" width="18" title="react logo"> React &nbsp;</span> an online footwear dashboard store for men, women, and children. The name of this store is <span style="color:#EF5350; font-weight:600"><img src="./static/../src/static/logo.png" width="20" title="EC logo"> *"Shoes EC"*</span>. The structure of the web page consists of three essential elements, the navigation bar, the side bar, and the content of the page. These elements help to make it easier to control the processes performed by the user. The `"Home"`, `"Read"`, `"Write"`, `"Update"`, and `"Delete"` buttons can also be found in the sidebar.<br/>
+This project aims to create in &nbsp; <span style="color: lightseagreen; font-weight:600; font-size: 1.2rem"> <img src="https://media4.giphy.com/media/eNAsjO55tPbgaor7ma/giphy.gif?cid=ecf05e47g3cyt5km83vjjzpek9yemwmsw1uw6d14u4pdtj73&rid=giphy.gif&ct=s" width="19" title="react logo"> React &nbsp;</span> an online footwear dashboard store for men, women, and children. The name of this store is <span style="color:#EF5350; font-weight:600"><img src="./static/../src/static/logo.png" width="20" title="EC logo"> *"Shoes EC"*</span>. The structure of the web page consists of three essential elements, the navigation bar, the side bar, and the content of the page. These elements help to make it easier to control the processes performed by the user. The `"Home"`, `"Read"`, `"Write"`, `"Update"`, and `"Delete"` buttons can also be found in the sidebar.<br/>
 In the navigation bar the user can select the donation service, send a private message, or contact the administrator of this website.All data created by the user is stored in the Firebase Real Time Database service.<br/>
 This project is launched on *Netlify* and the repository can be found on the Github link. <br/>
 Good Luck !!!
@@ -48,7 +48,7 @@ Everything presented here aims to accomplish the mission offered to the <span st
 
 &nbsp; 
 
-## :label: [![Generic badge](https://img.shields.io/badge/<Assignment1>-<Open>-<COLOR>.svg)](https://app.netlify.com/sites/ec-shoes-assessment1-eugeniuceban/overview) [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/Naereen/StrapDown.js/graphs/commit-activity) [![Website shields.io](https://img.shields.io/website-up-down-green-red/http/shields.io.svg)](http://shields.io/) [![Windows](https://svgshare.com/i/ZhY.svg)](https://svgshare.com/i/ZhY.svg) [![macOS](https://svgshare.com/i/ZjP.svg)](https://svgshare.com/i/ZjP.svg) [![Ask Me Anything !](https://img.shields.io/badge/Ask%20me-anything-1abc9c.svg)](https://GitHub.com/Naereen/ama)
+## :label: [![Generic badge](https://img.shields.io/badge/<Assignment2>-<Open>-<COLOR>.svg)](https://app.netlify.com/sites/ec-shoes-assessment1-eugeniuceban/overview) [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/Naereen/StrapDown.js/graphs/commit-activity) [![Website shields.io](https://img.shields.io/website-up-down-green-red/http/shields.io.svg)](http://shields.io/) [![Windows](https://svgshare.com/i/ZhY.svg)](https://svgshare.com/i/ZhY.svg) [![macOS](https://svgshare.com/i/ZjP.svg)](https://svgshare.com/i/ZjP.svg) [![Ask Me Anything !](https://img.shields.io/badge/Ask%20me-anything-1abc9c.svg)](https://GitHub.com/Naereen/ama)
 
 
 [![made-with-html](https://img.shields.io/badge/Made%20with-HTML-1f425f.svg)](https://developer.mozilla.org/en-US/docs/Web/HTML)

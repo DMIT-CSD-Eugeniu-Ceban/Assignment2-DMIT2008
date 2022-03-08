@@ -58,7 +58,7 @@ function LoginPage(props) {
                 <Container>
                     <div>
                         <span><img src={logo} width='65' style={{ margin: '1rem 0 1rem 1rem', position:'absolute', left:'0.5rem', top: '0.5rem'}} alt="company logo" /></span>
-                        <img className='picture' src={loginImage} width='700px' style={{padding:'1rem '}} alt="Sing in logo" />
+                        <img className='picture' src={loginImage} width='700px' style={{ padding: '1rem '}} alt="Sing in logo" />
                     </div>
 
                     
