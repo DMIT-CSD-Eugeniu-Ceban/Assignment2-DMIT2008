@@ -63,11 +63,6 @@ const Frame = styled.div`
     100% { background-position: 0 0; }
 }
 
-
 `
-
-
-
-
 
 export { Frame }

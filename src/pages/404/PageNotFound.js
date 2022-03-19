@@ -10,7 +10,7 @@ function PageNotFound(props) {
 
     function onSignInHandler(e) {
         e.preventDefault();
-        navigate('/dashboard')
+        navigate('/dashboard') /* If I want to go back to the lo */
     }
 
     return (
