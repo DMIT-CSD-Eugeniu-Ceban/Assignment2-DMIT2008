@@ -51,60 +51,123 @@ function LoginPage(props) {
             </form>
         </div> */}
 
-
-
-            <div style={{ background: `url(${backgroundImage})`, backgroundPosition: 'center', backgroundSize: 'cover', backgroundRepeat: 'no-repeat', height: '100vh', display: 'flex', alignItems: 'center', minHeight: '600px', minWidth: '600px' }} >
-
+            <div
+                style={{
+                    background: `url(${backgroundImage})`,
+                    backgroundPosition: "center",
+                    backgroundSize: "cover",
+                    backgroundRepeat: "no-repeat",
+                    height: "100vh",
+                    display: "flex",
+                    alignItems: "center",
+                    minHeight: "600px",
+                    minWidth: "600px",
+                }}
+            >
                 <Container>
                     <div>
-                        <span><img src={logo} width='65' style={{ margin: '1rem 0 1rem 1rem', position: 'absolute', left: '0.5rem', top: '0.5rem' }} alt="company logo" /></span>
-                        <img className='picture' src={loginImage} width='700px' style={{ padding: '1rem ' }} alt="Sing in logo" />
+                        <span>
+                            <img
+                                src={logo}
+                                width="65"
+                                style={{
+                                    margin: "1rem 0 1rem 1rem",
+                                    position: "absolute",
+                                    left: "0.5rem",
+                                    top: "0.5rem",
+                                }}
+                                alt="company logo"
+                            />
+                        </span>
+                        <img
+                            className="picture"
+                            src={loginImage}
+                            width="700px"
+                            style={{ padding: "1rem " }}
+                            alt="Sing in logo"
+                        />
                     </div>
 
-
-                    <div className='loginSection'>
-                        <p className='header'>Login</p>
-                        <div style={{ display: 'flex', justifyContent: 'center', paddingBottom: '0.4rem' }}>
-                            <span><img src={avatar} width='70' style={{ position: 'static' }} alt="company logo" /></span>
+                    <div className="loginSection">
+                        <p className="header">Login</p>
+                        <div
+                            style={{
+                                display: "flex",
+                                justifyContent: "center",
+                                paddingBottom: "0.4rem",
+                            }}
+                        >
+                            <span>
+                                <img
+                                    src={avatar}
+                                    width="70"
+                                    style={{ position: "static" }}
+                                    alt="company logo"
+                                />
+                            </span>
                         </div>
 
                         <form onSubmit={onSignInHandler} action="post">
-                            <div className='inputSection'>
-                                <label for="email">Email</label>
-                                <input type="email" id="email" placeholder="User email" /* required  */ />
-
+                            <div className="inputSection">
+                                <label htmlFor="email">Email</label>
+                                <input
+                                    type="email"
+                                    id="email"
+                                    placeholder="User email" /* required  */
+                                />
                             </div>
-                            <div className='inputSection'>
-                                <label for="password">Password</label>
-                                <input type="password" id="password" placeholder="Password" /* required */ />
+                            <div className="inputSection">
+                                <label htmlFor="password">Password</label>
+                                <input
+                                    type="password"
+                                    id="password"
+                                    placeholder="Password" /* required */
+                                />
                             </div>
 
-                            <div className='rememberForgot'>
+                            <div className="rememberForgot">
                                 <div>
-                                    <label>Remember Me
-                                        <input type="checkbox" style={{ marginLeft: '0.2rem', width: '1rem', height: '1rem', cursor: 'pointer' }} />
-                                        <span class="checkmark"></span>
+                                    <label>
+                                        Remember Me
+                                        <input
+                                            type="checkbox"
+                                            style={{
+                                                marginLeft: "0.2rem",
+                                                width: "1rem",
+                                                height: "1rem",
+                                                cursor: "pointer",
+                                            }}
+                                        />
+                                        <span className="checkmark"></span>
                                     </label>
                                 </div>
 
-                                <div className='forgotPass'>
-                                    <span><a href="#top">Forgot Password</a></span>
+                                <div className="forgotPass">
+                                    <span>
+                                        <a href="#top">Forgot Password</a>
+                                    </span>
                                 </div>
                             </div>
 
-                            <div className='loginButton'>
+                            <div className="loginButton">
                                 <button type="submit">Sign In</button>
                                 <button type="submit">Sign Up</button>
                             </div>
-                            <div className='socialMedia'>
+                            <div className="socialMedia">
                                 <span>
-                                    <a href="#top"><img src={facebook} alt="facebook" /></a>
+                                    <a href="#top">
+                                        <img src={facebook} alt="facebook" />
+                                    </a>
                                 </span>
                                 <span>
-                                    <a href="#top"><img src={google} alt="Gmail" /></a>
+                                    <a href="#top">
+                                        <img src={google} alt="Gmail" />
+                                    </a>
                                 </span>
                                 <span>
-                                    <a href="#top"><img src={linkedin} alt="LinkIn" /></a>
+                                    <a href="#top">
+                                        <img src={linkedin} alt="LinkIn" />
+                                    </a>
                                 </span>
                             </div>
                         </form>
@@ -112,20 +175,13 @@ function LoginPage(props) {
                 </Container>
             </div>
 
-
-
-
-
-
-
             {/* <AppBar />
             <div style={{ display: "flex" }}>
                 <SideBar />
                 <Panels />
             </div> */}
-
         </>
-    )
+    );
 }
 
 
